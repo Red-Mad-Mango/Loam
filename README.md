@@ -1,5 +1,3 @@
-# Loam
-
 <p align="center"><img src="./img/LOAM.png"></p>
 
 # Loam Theme
