@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Loam Dark Hard",
+  "version": "1.0",
+  "description": "High-contrast dark earth-tone theme with a warm, low-blue-light palette.",
+  "theme": {
+    "colors": {
+      "frame": [20, 16, 12],
+      "frame_inactive": [33, 26, 20],
+      "frame_incognito": [20, 16, 12],
+      "frame_incognito_inactive": [33, 26, 20],
+      "toolbar": [33, 26, 20],
+      "tab_text": [240, 224, 192],
+      "tab_background_text": [212, 191, 152],
+      "bookmark_text": [240, 224, 192],
+      "ntp_background": [20, 16, 12],
+      "ntp_text": [255, 244, 220],
+      "ntp_link": [224, 138, 69],
+      "ntp_link_underline": [224, 138, 69],
+      "ntp_header": [51, 40, 30],
+      "ntp_section": [33, 26, 20],
+      "ntp_section_text": [240, 224, 192],
+      "ntp_section_link": [224, 138, 69],
+      "omnibox_background": [51, 40, 30],
+      "omnibox_text": [255, 244, 220],
+      "button_background": [74, 59, 45],
+      "toolbar_button_icon": [212, 191, 152],
+      "toolbar_text": [240, 224, 192]
+    }
+  }
+}
+

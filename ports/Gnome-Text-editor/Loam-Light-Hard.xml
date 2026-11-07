@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="loam-light-hard" name="Loam Light Hard" version="1.0">
+  <author>Loam</author>
+  <description>Earthy cream light scheme with high contrast.</description>
+
+  <color name="bg0" value="#fbf4e4"/>
+  <color name="bg1" value="#f3e7cf"/>
+  <color name="bg2" value="#e8d7b5"/>
+  <color name="bg3" value="#d6bf93"/>
+  <color name="bg4" value="#bca070"/>
+  <color name="fg0" value="#1a120b"/>
+  <color name="fg1" value="#2a1d13"/>
+  <color name="fg2" value="#473424"/>
+  <color name="gray" value="#6e5a3c"/>
+  <color name="red" value="#963020"/>
+  <color name="green" value="#4e5a16"/>
+  <color name="yellow" value="#8a5c0a"/>
+  <color name="blue" value="#34595b"/>
+  <color name="purple" value="#6e4a5c"/>
+  <color name="aqua" value="#3c6a4f"/>
+  <color name="orange" value="#98501a"/>
+  <color name="bright-orange" value="#733a10"/>
+
+  <style name="text" foreground="fg1" background="bg0"/>
+  <style name="cursor" foreground="orange"/>
+  <style name="selection" background="bg2"/>
+  <style name="current-line" background="bg1"/>
+  <style name="line-numbers" foreground="gray" background="bg0"/>
+  <style name="current-line-number" foreground="fg0" background="bg1"/>
+  <style name="bracket-match" foreground="bright-orange" bold="true" background="bg3"/>
+  <style name="bracket-mismatch" foreground="red" underline="true" background="bg3"/>
+  <style name="search-match" foreground="fg0" background="yellow"/>
+  <style name="right-margin" foreground="bg3" background="bg1"/>
+  <style name="draw-spaces" foreground="bg4"/>
+
+  <style name="def:keyword" foreground="red"/>
+  <style name="def:statement" foreground="red"/>
+  <style name="def:type" foreground="yellow"/>
+  <style name="def:builtin" foreground="blue"/>
+  <style name="def:constant" foreground="purple"/>
+  <style name="def:boolean" foreground="purple"/>
+  <style name="def:special-constant" foreground="purple"/>
+  <style name="def:decimal" foreground="purple"/>
+  <style name="def:floating-point" foreground="purple"/>
+  <style name="def:base-n-integer" foreground="purple"/>
+  <style name="def:character" foreground="green"/>
+  <style name="def:string" foreground="green"/>
+  <style name="def:special-char" foreground="orange"/>
+  <style name="def:comment" foreground="gray" italic="true"/>
+  <style name="def:doc-comment-element" foreground="gray"/>
+  <style name="def:preprocessor" foreground="aqua"/>
+  <style name="def:shebang" foreground="aqua"/>
+  <style name="def:note" foreground="blue"/>
+  <style name="def:warning" foreground="orange"/>
+  <style name="def:error" foreground="red" bold="true"/>
+  <style name="def:underlined" foreground="blue" underline="true"/>
+  <style name="def:emphasis" italic="true"/>
+  <style name="def:strong-emphasis" bold="true"/>
+
+  <style name="def:heading" foreground="yellow" bold="true"/>
+  <style name="def:thematic-break" foreground="gray" bold="true"/>
+  <style name="def:inline-code" foreground="green"/>
+  <style name="def:preformatted-section" foreground="green"/>
+  <style name="def:link-text" foreground="aqua"/>
+  <style name="def:link-destination" foreground="blue" underline="single"/>
+  <style name="def:list-marker" foreground="orange" bold="true"/>
+  <style name="def:deletion" foreground="gray" strikethrough="true"/>
+  <style name="def:insertion" foreground="green" underline="single"/>
+</style-scheme>
+
