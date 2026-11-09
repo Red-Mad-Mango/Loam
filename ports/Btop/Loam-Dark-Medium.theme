@@ -1,0 +1,58 @@
+# Main background, empty for terminal default, else specify background color
+theme[main_bg]="#1e1812"
+
+# Main text color
+theme[main_fg]="#f3e6cc"
+
+# Title color for boxes
+theme[title]="#fff4dc"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#d9a441"
+
+# Background color of selected item in processes/menu
+theme[selected_bg]="#3b2f24"
+
+# Foreground color of selected item in processes/menu
+theme[selected_fg]="#fff4dc"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#8a7658"
+
+# Color of box borders and lines
+theme[border]="#4d3e2f"
+
+# Graph colors (Low, Mid, High)
+theme[graph_text]="#e6d3b0"
+theme[meter_bg]="#2a2119"
+theme[proc_misc]="#7fa08a"
+
+# CPU / Memory / Net / Proc usage gradients (Normal -> Warning -> Critical)
+theme[cpu_start]="#8f9a4a"
+theme[cpu_mid]="#d9a441"
+theme[cpu_end]="#c1624a"
+
+theme[free_start]="#8f9a4a"
+theme[free_mid]="#d9a441"
+theme[free_end]="#c1624a"
+
+theme[cached_start]="#6f8a8c"
+theme[cached_mid]="#9c7a8a"
+theme[cached_end]="#c1624a"
+
+theme[available_start]="#8a7658"
+theme[available_mid]="#d9a441"
+theme[available_end]="#c1624a"
+
+theme[used_start]="#d9803f"
+theme[used_mid]="#d9a441"
+theme[used_end]="#c1624a"
+
+# Download / Upload graphs
+theme[download_start]="#6f8a8c"
+theme[download_mid]="#7fa08a"
+theme[download_end]="#d9a441"
+
+theme[upload_start]="#9c7a8a"
+theme[upload_mid]="#d9803f"
+theme[upload_end]="#c1624a"
