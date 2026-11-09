@@ -1,0 +1,61 @@
+body.Loam-Dark-Medium {
+  --background: #1e1812;
+  --background-darker: #14100c;
+  --background-secondary: #3b2f24;
+  --background-lighter: #2a2119;
+  --accent: #d9a441;
+  --accent-overlay: var(--accent);
+
+  --navbar-background: var(--background-lighter);
+  --body-background: var(--background);
+  --current-background: var(--body-background);
+  --text-default: #f3e6cc;
+  --text-secondary: #e6d3b0;
+  --text-tertiary: #8a7658;
+  --navbar-accent: #8a7658;
+  --navbar-active: var(--accent);
+  --navbar-active-background: #3b2f24;
+  --success: #8f9a4a;
+  --success-hover: #b2b872;
+  --input-background: var(--background-lighter);
+  --modal-background: var(--background-lighter);
+  --modal-border: var(--background-secondary);
+  --primary: #c1624a;
+  --primary-hover: #d9826a;
+  --danger: #c1624a;
+  --danger-hover: #d9826a;
+  --text-title: var(--text-default);
+  --icons-background: var(--background-lighter);
+  --action-icon: var(--text-secondary);
+  --action-icon-hover: var(--text-default);
+  --action-icon-active: var(--accent);
+  --icon-disabled: #4d3e2f;
+  --cancel-button: #d9803f;
+  --neutral-06: var(--text-default);
+}
+
+body.Loam-Dark-Medium {
+  /* ... keep your existing variables ... */
+  
+  /* Force the play/success action buttons to use your theme success or primary color */
+  --success: #8f9a4a;         /* Maps to your green variant */
+  --success-hover: #b2b872;   /* Maps to your bright_green variant */
+}
+
+/* Force Heroic's Play Now / Start / Success buttons to use the theme color */
+body[class*="loam"] .playButton,
+body[class*="loam"] button.success,
+body[class*="loam"] .success-button,
+body[class*="loam"] [class*="PlayButton"],
+body[class*="loam"] [class*="success"] {
+  background-color: var(--success) !important;
+  color: var(--background) !important;
+}
+
+body[class*="loam"] .playButton:hover,
+body[class*="loam"] button.success:hover,
+body[class*="loam"] .success-button:hover,
+body[class*="loam"] [class*="PlayButton"]:hover {
+  background-color: var(--success-hover) !important;
+  color: var(--background) !important;
+}

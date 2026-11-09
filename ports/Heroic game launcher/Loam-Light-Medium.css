@@ -1,0 +1,52 @@
+body.Loam-Light-Medium {
+  --background: #f5ebd8;
+  --background-darker: #ebdcc0;
+  --background-secondary: #dfcdaa;
+  --background-lighter: #ebdcc0;
+  --accent: #9a6a12;
+  --accent-overlay: var(--accent);
+
+  --navbar-background: var(--background-lighter);
+  --body-background: var(--background);
+  --current-background: var(--body-background);
+  --text-default: #2a1f16;
+  --text-secondary: #3b2c20;
+  --text-tertiary: #7d6a4f;
+  --navbar-accent: #7d6a4f;
+  --navbar-active: var(--accent);
+  --navbar-active-background: #dfcdaa;
+  --success: #5f6b22;
+  --success-hover: #4a5518;
+  --input-background: #fff8ef;
+  --modal-background: var(--background);
+  --modal-border: var(--background-secondary);
+  --primary: #a4402c;
+  --primary-hover: #8f2e1e;
+  --danger: #a4402c;
+  --danger-hover: #8f2e1e;
+  --text-title: var(--text-default);
+  --icons-background: var(--background-secondary);
+  --action-icon: var(--text-secondary);
+  --action-icon-hover: var(--text-default);
+  --action-icon-active: var(--accent);
+  --icon-disabled: #cdb896;
+  --cancel-button: #a85a22;
+  --neutral-06: var(--text-default);
+}
+
+body[class*="Loam-Light-Medium"] .playButton,
+body[class*="Loam-Light-Medium"] button.success,
+body[class*="Loam-Light-Medium"] .success-button,
+body[class*="Loam-Light-Medium"] [class*="PlayButton"],
+body[class*="Loam-Light-Medium"] [class*="success"] {
+  background-color: var(--success) !important;
+  color: #fff8ef !important;
+}
+
+body[class*="Loam-Light-Medium"] .playButton:hover,
+body[class*="Loam-Light-Medium"] button.success:hover,
+body[class*="Loam-Light-Medium"] .success-button:hover,
+body[class*="Loam-Light-Medium"] [class*="PlayButton"]:hover {
+  background-color: var(--success-hover) !important;
+  color: #fff8ef !important;
+}
